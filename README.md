@@ -1,3 +1,3 @@
 # Login-Cadastro-Responsivo-PHP-MSQL
 Sistema de Login e Cadastro Responsivo feito em Html-Php-Msql
-*criador: Brunno Henrique Vilas Boas
+#Sistema de Login e Cadastro Responsivo feito em Html-Php-Msql
