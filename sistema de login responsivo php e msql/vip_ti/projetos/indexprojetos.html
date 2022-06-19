@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME  </title>
+    <link rel="shortcut icon" href=."i.magens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../../css/menunavegacao.css">
+
+</head>
+
+<body>
+<header rel="cabeçalho">        
+<h1>BRUNNO.XYZ</h1>
+<?php
+session_start();
+include('verifica_login.php');
+?>
+
+<p>                      </p>
+</header>
+
+<nav rel="menu de navegaçao do site" class="bg hover-circulo" >
+
+<a href="https://brunno.xyz/" title="HOME"> HOME</a>
+<a href="../../dowloand/pagina-principal" title="">DOWLOAND</a>
+<a href="../../noticias/pagina-principal" title="NOTICIAS">NOTICIAS</a>
+<a href="../../contato/pagina-principal" title="CONTATO">CONTATO</a>
+<a href="../../ajuda/pagina-principal" title="AJUDA">AJUDA</a>
+
+
+
+
+
+</nav>
+
+     <main rel="conteudo principal">
+
+         <article>
+    <h1>Area destina a projetos pessoais feitos em html</h1>
+    
+     <h5>Login:<?php echo $_SESSION['login'];?></h5>
+     <h4><a href="../logout.php">Sair</a></h4>
+  
+    <p> Meu nome e <strong>Brunno</strong> sou o criador do site que esta em desenvolvimento
+        então algumas paginas vão esta escritas 404 erro significa que em breve ela estara
+        disponivel para nossos visitantes estarem acessando, ainda
+        estamos trabalhando para responsavidade em todos dispositivos por isso
+        caso a barra meu esteja com bugs
+
+               
+                                           </p>
+
+    <h2>Novidades</h2>
+
+    <p>
+
+               
+                                           </p>
+
+
+        <h2>Ultimas noticias</h2>
+
+            <p> 
+                   EM BREVE
+        
+                        
+                                                    </p>
+
+
+    <h2>Filmes novos</h2>
+
+            <p> 
+                   EM BREVE
+        
+                        
+                                                    </p>     
+                                                    
+    <h2>Dowloands novos</h2>
+
+            <p>  EM BREVE
+                        
+                                </p>                                             
+
+
+  
+    <aside>
+        <h3>Informações:</h3>
+
+        <p>Criador do site: Brunno</p>
+    
+      
+     
+        </aside>
+        
+    
+        <p>
+            Então é isso! Espero que você tenha gostado do nosso site
+            <strong>https://brunno.xyz/</strong>
+        </p>
+    </article>
+    </main>
+    <footer>
+    <p>Site criado por  Brunno</p>
+    </footer>
+    </body>
+    </html>

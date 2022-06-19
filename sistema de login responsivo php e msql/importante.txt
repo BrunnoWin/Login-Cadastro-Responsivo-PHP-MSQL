@@ -1,0 +1,22 @@
+--------------------------------------------------------------
+     index.php
+-contem a tela de login
+--------------------------------------------------------------
+     cadastro.php
+-contem a tela de cadastro
+--------------------------------------------------------------
+     conexao.php
+
+-cria conexao com banco de dados
+
+     verifica_login.php
+-verifica o login
+
+-painel.php
+
+logaut.php
+
+--------------------------------------------------------------
+      home.html
+      
+-seria a pagina principal do site depois que e logado na tela de login e redirecionado para home.php

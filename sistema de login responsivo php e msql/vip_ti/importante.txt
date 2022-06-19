@@ -1,0 +1,11 @@
+form.php
+-seria o formulario de pesquisa
+
+pesquisa.php
+-seria o codigo php que conecta o banco com sql de pesquisa
+-------------------------
+cadastro.php
+contem codigo de cadastro
+
+cadastro.html
+contem formulario de cadastro

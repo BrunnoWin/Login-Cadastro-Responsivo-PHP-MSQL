@@ -1,0 +1,170 @@
+fieldset
+{
+  width:270px;
+  height:480px;
+  box-shadow: 1px -4px 20px 3px #0b0e0e91;
+  background-color:#ffffff;
+  border-radius: 25px;
+  margin: 20px;
+  border-color:#2fa86500 ;
+
+  
+  /*1px -4px 20px 3px #0b0e0e91*/
+
+}
+legend
+{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+
+
+/*  tamanho botao select */
+select
+{
+
+ width:300px;
+  height:30px;
+
+}
+
+
+
+/* ------------------------------------- */
+
+
+#inputNome{
+height: 30px;
+width: 200px;
+border-radius: 10px;
+font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+color: #078341; /*cor do texto  */
+border-color:#2fa8659b ;
+
+
+}
+
+/* -------Botão de texto e-mail--------------- */
+#inputEmail{
+height: 30px;
+width: 200px;
+border-radius: 10px;
+font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+color: #078341; /*cor do texto  */
+border-color:#2fa8659b ;
+
+
+
+}
+
+/* -------Botão de texto telefone--------------- */
+#inputTelefone{
+height: 30px;
+width: 200px;
+border-radius: 10px;
+font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+color: #078341; /*cor do texto  */
+border-color:#2fa8659b ;
+
+
+
+
+}
+
+/*-----------------------------------------------*/
+
+/* -------Botão de assunto--------------- */
+
+
+#inputassunto{
+
+    width:204px;
+    border-radius:10px ;
+    box-shadow:2px 2px #06994868 ;
+    margin-left: 30px; /*margin esquerda*/
+    margin-bottom:20px;/*margin inferior/baixo*/
+    color: #078341; /*cor do texto  */
+    border: 20px;
+    background-color:#0bec7078 ;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+    
+
+    
+}
+/* cor dos itens  do inputassunto select  */
+
+#coroption01{
+    background-color:#83e1ad ;
+  
+}
+
+#coroption02{
+    background-color:#0bec70 ;
+
+}
+
+/* fim da cor dos inputassunto select option*/
+
+
+/* cor dos itens  do inputassunto select  */
+
+
+
+/* width:200px; = largura */
+/* border-radius:10px ; borda circular 10px */
+/*------------------------------------------------*/
+
+/*------------text area----------------------*/
+
+#textAreaMensagem{
+
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+    color: #078341; /*cor do texto  */
+    border-color:#2fa8659b ;
+
+    
+    }
+
+/*------------------------------------------------*/
+
+/*  botao envia tamanho, cor e fonte*/
+
+.botaoenviar{
+
+  height: 30px;
+ 
+  width: 200px;
+ 
+ 
+  background-color:#3ddc84;
+ 
+  font-size: 10px;
+  
+  box-shadow: 2px 2px #2fa8659b;
+ 
+  border-radius: 10px;
+ 
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”; 
+  border-color:#2fa8659b ;
+
+}
+
+/*  cor do placeholder que e o texto que fica na caixa exemplo
+informe seu email:                                      */
+input::placeholder {
+  color: #078341; /*cor do texto  */
+}
+
+
+textarea::placeholder{
+
+  color: #078341; /*cor do texto  */
+
+  
+}
+
+
+/*   fim codigo placeholder  */
